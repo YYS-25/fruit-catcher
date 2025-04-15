@@ -1,0 +1,41 @@
+body {
+  background-color: #f0f8ff;
+  font-family: sans-serif;
+}
+
+.game-container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  position: relative;
+}
+
+#game {
+  position: relative;
+  height: 500px;
+  background: #d0f0c0;
+  overflow: hidden;
+  border: 2px solid #444;
+  margin-top: 20px;
+}
+
+#basket {
+  position: absolute;
+  bottom: 10px;
+  width: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#fruit {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 40px;
+  transform: translateX(-50%);
+}
+
+#score {
+  font-size: 24px;
+  margin-top: 20px;
+}
