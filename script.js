@@ -9,7 +9,7 @@ let gameWidth = game.clientWidth;
 let fruitFallSpeed = 3;
 let fruitInterval;
 
-let basketSpeed = 10;
+let basketSpeed = 50;
 let keysPressed = {};
 
 function moveFruit() {
